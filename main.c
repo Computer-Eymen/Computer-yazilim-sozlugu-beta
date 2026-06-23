@@ -227,7 +227,7 @@ printf("Uygulamayı kapatmak için enter tuşuna basın");
 		printf("Sistem programlama, tarayıcı motorları, kripto para / blockchain altyapıları, yüksek güvenlik gerektiren performans işlerinde kullanılır. bu dille yazılıma başlanmaz.Nedeni: Her ne kadar C++'a bi alternetif olarak çımış olsada öğrenmesi çok diktir ve deneyimli yazılımcıların geçiş yaptığı bi dildir.");
 	}else if(strcmp(dil, "swift") == 0){
 		printf("Bu dil ile yazılıma başlanabilir ama bu dili kullanmak için bi mac cihaza sahip olmanız ve bu dil ile sadece apple cihazlara uygulama yapılabildiğini unutmayın.");
-	}else if(strcmp(dil, "kotlin")){
+	}else if(strcmp(dil, "kotlin") == 0){
 		printf("eğer Hedefimiz sadece android ise evet kotlin ile başlamak mantıklıdır.");
 	}else{
 		printf("Bu dil listede yok!");
